@@ -1,0 +1,1920 @@
+Loading required package: sp
+Loading required package: lattice
+Loading required package: ggplot2
+rgdal: version: 0.8-16, (SVN revision 498)
+Geospatial Data Abstraction Library extensions to R successfully loaded
+Loaded GDAL runtime: GDAL 1.7.3, released 2010/11/10
+Path to GDAL shared files: /usr/share/gdal/1.7
+GDAL does not use iconv for recoding strings.
+Loaded PROJ.4 runtime: Rel. 4.7.1, 23 September 2009, [PJ_VERSION: 470]
+Path to PROJ.4 shared files: (autodetected)
+OGR data source with driver: ESRI Shapefile 
+Source: "plots_shp/PlotPoles_ARC1960_mod_20140807_final.shp", layer: "PlotPoles_ARC1960_mod_20140807_final"
+with 1248 features and 7 fields
+Feature type: wkbPoint with 2 dimensions
+Warning message:
+In ReplProj4string(obj, CRS(value)) :
+  A new CRS was assigned to an object with an existing CRS:
++proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+without reprojecting.
+For reprojection, use function spTransform in package rgdal
+
+
+RUNNING glm : ITERATION 1 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.978     0.039    0.00156    
+
+ 
+
+
+RUNNING glm : ITERATION 2 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.965  0.98      0.0368   0.00151    
+
+ 
+
+
+RUNNING glm : ITERATION 3 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.979     0.0347   0.00168    
+
+ 
+
+
+RUNNING glm : ITERATION 4 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.02  0.977     0.0471   0.00224    
+
+ 
+
+
+RUNNING glm : ITERATION 5 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.977     0.0489   0.0019     
+
+ 
+
+
+RUNNING glm : ITERATION 6 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.976     0.0372   0.00181    
+
+ 
+
+
+RUNNING glm : ITERATION 7 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.988  0.978     0.0437   0.00243    
+
+ 
+
+
+RUNNING glm : ITERATION 8 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.985  0.978     0.036    0.00227    
+
+ 
+
+
+RUNNING glm : ITERATION 9 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.977     0.0461   0.002      
+
+ 
+
+
+RUNNING glm : ITERATION 10 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.952  0.979     0.0374   0.00175    
+
+ 
+
+
+RUNNING glm : ITERATION 11 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.978     0.0436   0.00161    
+
+ 
+
+
+RUNNING glm : ITERATION 12 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.999  0.978     0.0411   0.00173    
+
+ 
+
+
+RUNNING glm : ITERATION 13 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.02  0.977     0.047    0.00208    
+
+ 
+
+
+RUNNING glm : ITERATION 14 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.996  0.978     0.0374   0.002      
+
+ 
+
+
+RUNNING glm : ITERATION 15 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.972  0.979     0.0372   0.00195    
+
+ 
+
+
+RUNNING glm : ITERATION 16 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  0.95  0.981     0.0404   0.002      
+
+ 
+
+
+RUNNING glm : ITERATION 17 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.982  0.978     0.0417   0.00206    
+
+ 
+
+
+RUNNING glm : ITERATION 18 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.981  0.978     0.0383   0.00213    
+
+ 
+
+
+RUNNING glm : ITERATION 19 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.957  0.979     0.0429   0.00221    
+
+ 
+
+
+RUNNING glm : ITERATION 20 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.978     0.0417   0.00194    
+
+ 
+
+
+RUNNING glm : ITERATION 21 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.977     0.046    0.00199    
+
+ 
+
+
+RUNNING glm : ITERATION 22 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  0.99  0.978     0.0402   0.00203    
+
+ 
+
+
+RUNNING glm : ITERATION 23 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.999  0.977     0.0359   0.00215    
+
+ 
+
+
+RUNNING glm : ITERATION 24 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.967  0.98      0.0366   0.00183    
+
+ 
+
+
+RUNNING glm : ITERATION 25 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.998  0.978     0.0457   0.00234    
+
+ 
+
+
+RUNNING glm : ITERATION 26 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.989  0.979     0.0314   0.0018     
+
+ 
+
+
+RUNNING glm : ITERATION 27 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.997  0.978     0.0368   0.00209    
+
+ 
+
+
+RUNNING glm : ITERATION 28 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.956  0.979     0.0253   0.00162    
+
+ 
+
+
+RUNNING glm : ITERATION 29 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.978     0.0554   0.00243    
+
+ 
+
+
+RUNNING glm : ITERATION 30 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.974  0.979     0.0388   0.00211    
+
+ 
+
+
+RUNNING glm : ITERATION 31 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.991  0.979     0.0445   0.00182    
+
+ 
+
+
+RUNNING glm : ITERATION 32 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.978     0.0441   0.00192    
+
+ 
+
+
+RUNNING glm : ITERATION 33 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.978     0.0406   0.00227    
+
+ 
+
+
+RUNNING glm : ITERATION 34 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.964  0.98      0.0377   0.00175    
+
+ 
+
+
+RUNNING glm : ITERATION 35 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.966  0.98      0.0291   0.00193    
+
+ 
+
+
+RUNNING glm : ITERATION 36 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.962  0.98      0.0415   0.00157    
+
+ 
+
+
+RUNNING glm : ITERATION 37 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.997  0.979     0.0542   0.00232    
+
+ 
+
+
+RUNNING glm : ITERATION 38 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.959  0.98      0.0324   0.00182    
+
+ 
+
+
+RUNNING glm : ITERATION 39 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.977     0.0385   0.0019     
+
+ 
+
+
+RUNNING glm : ITERATION 40 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.988  0.978     0.0381   0.00201    
+
+ 
+
+
+RUNNING glm : ITERATION 41 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.996  0.978     0.0365   0.00168    
+
+ 
+
+
+RUNNING glm : ITERATION 42 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.959  0.979     0.038    0.00201    
+
+ 
+
+
+RUNNING glm : ITERATION 43 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.978     0.0456   0.00225    
+
+ 
+
+
+RUNNING glm : ITERATION 44 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.999  0.978     0.0536   0.00245    
+
+ 
+
+
+RUNNING glm : ITERATION 45 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.992  0.978     0.0377   0.00207    
+
+ 
+
+
+RUNNING glm : ITERATION 46 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.978  0.978     0.0522   0.00259    
+
+ 
+
+
+RUNNING glm : ITERATION 47 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.991  0.979     0.0331   0.00179    
+
+ 
+
+
+RUNNING glm : ITERATION 48 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.956  0.979     0.0378   0.00157    
+
+ 
+
+
+RUNNING glm : ITERATION 49 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.982  0.979     0.0444   0.00212    
+
+ 
+
+
+RUNNING glm : ITERATION 50 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.983  0.978     0.0362   0.00241    
+
+ 
+
+
+RUNNING glm : ITERATION 51 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.02  0.978     0.0383   0.00151    
+
+ 
+
+
+RUNNING glm : ITERATION 52 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.992  0.978     0.0523   0.00211    
+
+ 
+
+
+RUNNING glm : ITERATION 53 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.972  0.979     0.0373   0.0019     
+
+ 
+
+
+RUNNING glm : ITERATION 54 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.982  0.978     0.0425   0.00208    
+
+ 
+
+
+RUNNING glm : ITERATION 55 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.946  0.979     0.039    0.00152    
+
+ 
+
+
+RUNNING glm : ITERATION 56 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.955  0.98      0.0389   0.00161    
+
+ 
+
+
+RUNNING glm : ITERATION 57 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.978     0.0425   0.00218    
+
+ 
+
+
+RUNNING glm : ITERATION 58 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.02  0.978     0.0464   0.00214    
+
+ 
+
+
+RUNNING glm : ITERATION 59 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.978     0.0486   0.00195    
+
+ 
+
+
+RUNNING glm : ITERATION 60 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.978     0.0505   0.0021     
+
+ 
+
+
+RUNNING glm : ITERATION 61 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.995  0.979     0.0556   0.0025     
+
+ 
+
+
+RUNNING glm : ITERATION 62 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.978     0.0408   0.00216    
+
+ 
+
+
+RUNNING glm : ITERATION 63 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.998  0.978     0.0364   0.00217    
+
+ 
+
+
+RUNNING glm : ITERATION 64 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.964  0.979     0.0392   0.00177    
+
+ 
+
+
+RUNNING glm : ITERATION 65 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.978     0.0386   0.00192    
+
+ 
+
+
+RUNNING glm : ITERATION 66 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.999  0.978     0.0356   0.00146    
+
+ 
+
+
+RUNNING glm : ITERATION 67 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.974  0.979     0.0442   0.00231    
+
+ 
+
+
+RUNNING glm : ITERATION 68 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.991  0.978     0.0548   0.00225    
+
+ 
+
+
+RUNNING glm : ITERATION 69 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.993  0.978     0.0439   0.00198    
+
+ 
+
+
+RUNNING glm : ITERATION 70 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.994  0.978     0.0352   0.00149    
+
+ 
+
+
+RUNNING glm : ITERATION 71 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.993  0.978     0.0509   0.00241    
+
+ 
+
+
+RUNNING glm : ITERATION 72 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.991  0.978     0.0557   0.00269    
+
+ 
+
+
+RUNNING glm : ITERATION 73 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.948  0.979     0.0256   0.00146    
+
+ 
+
+
+RUNNING glm : ITERATION 74 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.994  0.978     0.0363   0.00179    
+
+ 
+
+
+RUNNING glm : ITERATION 75 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.978     0.0414   0.00192    
+
+ 
+
+
+RUNNING glm : ITERATION 76 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.983  0.979     0.0455   0.00197    
+
+ 
+
+
+RUNNING glm : ITERATION 77 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.977     0.0386   0.00175    
+
+ 
+
+
+RUNNING glm : ITERATION 78 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.994  0.977     0.0321   0.00151    
+
+ 
+
+
+RUNNING glm : ITERATION 79 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.968  0.979     0.0368   0.00188    
+
+ 
+
+
+RUNNING glm : ITERATION 80 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.977  0.979     0.0475   0.00221    
+
+ 
+
+
+RUNNING glm : ITERATION 81 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.977     0.043    0.00227    
+
+ 
+
+
+RUNNING glm : ITERATION 82 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.984  0.979     0.0334   0.0018     
+
+ 
+
+
+RUNNING glm : ITERATION 83 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.978     0.0392   0.00179    
+
+ 
+
+
+RUNNING glm : ITERATION 84 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  0.97  0.979     0.0351   0.00142    
+
+ 
+
+
+RUNNING glm : ITERATION 85 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.964  0.979     0.0349   0.00173    
+
+ 
+
+
+RUNNING glm : ITERATION 86 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.979     0.047    0.00212    
+
+ 
+
+
+RUNNING glm : ITERATION 87 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.971  0.979     0.0333   0.0017     
+
+ 
+
+
+RUNNING glm : ITERATION 88 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.994  0.977     0.0457   0.00251    
+
+ 
+
+
+RUNNING glm : ITERATION 89 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1.01  0.977     0.0443   0.00157    
+
+ 
+
+
+RUNNING glm : ITERATION 90 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.978     0.0488   0.00214    
+
+ 
+
+
+RUNNING glm : ITERATION 91 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.982  0.979     0.0501   0.00228    
+
+ 
+
+
+RUNNING glm : ITERATION 92 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.969  0.979     0.0308   0.00184    
+
+ 
+
+
+RUNNING glm : ITERATION 93 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.975  0.979     0.0308   0.00169    
+
+ 
+
+
+RUNNING glm : ITERATION 94 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.983  0.979     0.0449   0.00189    
+
+ 
+
+
+RUNNING glm : ITERATION 95 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.988  0.979     0.0333   0.0013     
+
+ 
+
+
+RUNNING glm : ITERATION 96 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.987  0.979     0.0487   0.00209    
+
+ 
+
+
+RUNNING glm : ITERATION 97 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.985  0.978     0.031    0.00149    
+
+ 
+
+
+RUNNING glm : ITERATION 98 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.991  0.979     0.043    0.00218    
+
+ 
+
+
+RUNNING glm : ITERATION 99 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE   Rsquared  RMSE SD  Rsquared SD
+  0.977  0.978     0.0428   0.00218    
+
+ 
+
+
+RUNNING glm : ITERATION 100 
+Generalized Linear Model 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results
+
+  RMSE  Rsquared  RMSE SD  Rsquared SD
+  1     0.978     0.0383   0.0019     
+
+ 
