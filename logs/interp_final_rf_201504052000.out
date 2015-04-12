@@ -1,0 +1,387 @@
+
+Method is : rf 
+
+Loading required package: sp
+Loading required package: raster
+Loading required package: colorspace
+
+Attaching package: ‘colorspace’
+
+The following object is masked from ‘package:raster’:
+
+    RGB
+
+Loading required package: lattice
+Loading required package: ggplot2
++(rfe) fit Fold01 size: 8 
+randomForest 4.6-10
+Type rfNews() to see new features/changes/bug fixes.
+-(rfe) fit Fold01 size: 8 
++(rfe) imp Fold01 
+-(rfe) imp Fold01 
++(rfe) fit Fold01 size: 7 
+-(rfe) fit Fold01 size: 7 
++(rfe) fit Fold01 size: 6 
+-(rfe) fit Fold01 size: 6 
++(rfe) fit Fold01 size: 5 
+-(rfe) fit Fold01 size: 5 
++(rfe) fit Fold01 size: 4 
+-(rfe) fit Fold01 size: 4 
++(rfe) fit Fold01 size: 3 
+-(rfe) fit Fold01 size: 3 
++(rfe) fit Fold01 size: 2 
+-(rfe) fit Fold01 size: 2 
++(rfe) fit Fold02 size: 8 
+-(rfe) fit Fold02 size: 8 
++(rfe) imp Fold02 
+-(rfe) imp Fold02 
++(rfe) fit Fold02 size: 7 
+-(rfe) fit Fold02 size: 7 
++(rfe) fit Fold02 size: 6 
+-(rfe) fit Fold02 size: 6 
++(rfe) fit Fold02 size: 5 
+-(rfe) fit Fold02 size: 5 
++(rfe) fit Fold02 size: 4 
+-(rfe) fit Fold02 size: 4 
++(rfe) fit Fold02 size: 3 
+-(rfe) fit Fold02 size: 3 
++(rfe) fit Fold02 size: 2 
+-(rfe) fit Fold02 size: 2 
++(rfe) fit Fold03 size: 8 
+-(rfe) fit Fold03 size: 8 
++(rfe) imp Fold03 
+-(rfe) imp Fold03 
++(rfe) fit Fold03 size: 7 
+-(rfe) fit Fold03 size: 7 
++(rfe) fit Fold03 size: 6 
+-(rfe) fit Fold03 size: 6 
++(rfe) fit Fold03 size: 5 
+-(rfe) fit Fold03 size: 5 
++(rfe) fit Fold03 size: 4 
+-(rfe) fit Fold03 size: 4 
++(rfe) fit Fold03 size: 3 
+-(rfe) fit Fold03 size: 3 
++(rfe) fit Fold03 size: 2 
+-(rfe) fit Fold03 size: 2 
++(rfe) fit Fold04 size: 8 
+-(rfe) fit Fold04 size: 8 
++(rfe) imp Fold04 
+-(rfe) imp Fold04 
++(rfe) fit Fold04 size: 7 
+-(rfe) fit Fold04 size: 7 
++(rfe) fit Fold04 size: 6 
+-(rfe) fit Fold04 size: 6 
++(rfe) fit Fold04 size: 5 
+-(rfe) fit Fold04 size: 5 
++(rfe) fit Fold04 size: 4 
+-(rfe) fit Fold04 size: 4 
++(rfe) fit Fold04 size: 3 
+-(rfe) fit Fold04 size: 3 
++(rfe) fit Fold04 size: 2 
+-(rfe) fit Fold04 size: 2 
++(rfe) fit Fold05 size: 8 
+-(rfe) fit Fold05 size: 8 
++(rfe) imp Fold05 
+-(rfe) imp Fold05 
++(rfe) fit Fold05 size: 7 
+-(rfe) fit Fold05 size: 7 
++(rfe) fit Fold05 size: 6 
+-(rfe) fit Fold05 size: 6 
++(rfe) fit Fold05 size: 5 
+-(rfe) fit Fold05 size: 5 
++(rfe) fit Fold05 size: 4 
+-(rfe) fit Fold05 size: 4 
++(rfe) fit Fold05 size: 3 
+-(rfe) fit Fold05 size: 3 
++(rfe) fit Fold05 size: 2 
+-(rfe) fit Fold05 size: 2 
++(rfe) fit Fold06 size: 8 
+-(rfe) fit Fold06 size: 8 
++(rfe) imp Fold06 
+-(rfe) imp Fold06 
++(rfe) fit Fold06 size: 7 
+-(rfe) fit Fold06 size: 7 
++(rfe) fit Fold06 size: 6 
+-(rfe) fit Fold06 size: 6 
++(rfe) fit Fold06 size: 5 
+-(rfe) fit Fold06 size: 5 
++(rfe) fit Fold06 size: 4 
+-(rfe) fit Fold06 size: 4 
++(rfe) fit Fold06 size: 3 
+-(rfe) fit Fold06 size: 3 
++(rfe) fit Fold06 size: 2 
+-(rfe) fit Fold06 size: 2 
++(rfe) fit Fold07 size: 8 
+-(rfe) fit Fold07 size: 8 
++(rfe) imp Fold07 
+-(rfe) imp Fold07 
++(rfe) fit Fold07 size: 7 
+-(rfe) fit Fold07 size: 7 
++(rfe) fit Fold07 size: 6 
+-(rfe) fit Fold07 size: 6 
++(rfe) fit Fold07 size: 5 
+-(rfe) fit Fold07 size: 5 
++(rfe) fit Fold07 size: 4 
+-(rfe) fit Fold07 size: 4 
++(rfe) fit Fold07 size: 3 
+-(rfe) fit Fold07 size: 3 
++(rfe) fit Fold07 size: 2 
+-(rfe) fit Fold07 size: 2 
++(rfe) fit Fold08 size: 8 
+-(rfe) fit Fold08 size: 8 
++(rfe) imp Fold08 
+-(rfe) imp Fold08 
++(rfe) fit Fold08 size: 7 
+-(rfe) fit Fold08 size: 7 
++(rfe) fit Fold08 size: 6 
+-(rfe) fit Fold08 size: 6 
++(rfe) fit Fold08 size: 5 
+-(rfe) fit Fold08 size: 5 
++(rfe) fit Fold08 size: 4 
+-(rfe) fit Fold08 size: 4 
++(rfe) fit Fold08 size: 3 
+-(rfe) fit Fold08 size: 3 
++(rfe) fit Fold08 size: 2 
+-(rfe) fit Fold08 size: 2 
++(rfe) fit Fold09 size: 8 
+-(rfe) fit Fold09 size: 8 
++(rfe) imp Fold09 
+-(rfe) imp Fold09 
++(rfe) fit Fold09 size: 7 
+-(rfe) fit Fold09 size: 7 
++(rfe) fit Fold09 size: 6 
+-(rfe) fit Fold09 size: 6 
++(rfe) fit Fold09 size: 5 
+-(rfe) fit Fold09 size: 5 
++(rfe) fit Fold09 size: 4 
+-(rfe) fit Fold09 size: 4 
++(rfe) fit Fold09 size: 3 
+-(rfe) fit Fold09 size: 3 
++(rfe) fit Fold09 size: 2 
+-(rfe) fit Fold09 size: 2 
++(rfe) fit Fold10 size: 8 
+-(rfe) fit Fold10 size: 8 
++(rfe) imp Fold10 
+-(rfe) imp Fold10 
++(rfe) fit Fold10 size: 7 
+-(rfe) fit Fold10 size: 7 
++(rfe) fit Fold10 size: 6 
+-(rfe) fit Fold10 size: 6 
++(rfe) fit Fold10 size: 5 
+-(rfe) fit Fold10 size: 5 
++(rfe) fit Fold10 size: 4 
+-(rfe) fit Fold10 size: 4 
++(rfe) fit Fold10 size: 3 
+-(rfe) fit Fold10 size: 3 
++(rfe) fit Fold10 size: 2 
+-(rfe) fit Fold10 size: 2 
+
+Recursive feature selection
+
+Outer resampling method: Cross-Validated (10 fold) 
+
+Resampling performance over subset size:
+
+ Variables   RMSE Rsquared  RMSESD RsquaredSD Selected
+         2 1.0952   0.9710 0.25353   0.013058         
+         3 0.8482   0.9838 0.30064   0.010399         
+         4 0.8315   0.9870 0.15106   0.003991         
+         5 0.8739   0.9866 0.13432   0.003832         
+         6 0.5899   0.9918 0.11793   0.003273         
+         7 0.5731   0.9923 0.11943   0.003244         
+         8 0.5584   0.9928 0.09915   0.002402        *
+
+The top 5 variables (out of 8):
+   dem, ndvi, Ta_reg_lwr, Ta_reg, asp
+
++ Fold01: mtry=2 
+- Fold01: mtry=2 
++ Fold01: mtry=3 
+- Fold01: mtry=3 
++ Fold01: mtry=4 
+- Fold01: mtry=4 
++ Fold01: mtry=5 
+- Fold01: mtry=5 
++ Fold01: mtry=6 
+- Fold01: mtry=6 
++ Fold01: mtry=7 
+- Fold01: mtry=7 
++ Fold01: mtry=8 
+- Fold01: mtry=8 
++ Fold02: mtry=2 
+- Fold02: mtry=2 
++ Fold02: mtry=3 
+- Fold02: mtry=3 
++ Fold02: mtry=4 
+- Fold02: mtry=4 
++ Fold02: mtry=5 
+- Fold02: mtry=5 
++ Fold02: mtry=6 
+- Fold02: mtry=6 
++ Fold02: mtry=7 
+- Fold02: mtry=7 
++ Fold02: mtry=8 
+- Fold02: mtry=8 
++ Fold03: mtry=2 
+- Fold03: mtry=2 
++ Fold03: mtry=3 
+- Fold03: mtry=3 
++ Fold03: mtry=4 
+- Fold03: mtry=4 
++ Fold03: mtry=5 
+- Fold03: mtry=5 
++ Fold03: mtry=6 
+- Fold03: mtry=6 
++ Fold03: mtry=7 
+- Fold03: mtry=7 
++ Fold03: mtry=8 
+- Fold03: mtry=8 
++ Fold04: mtry=2 
+- Fold04: mtry=2 
++ Fold04: mtry=3 
+- Fold04: mtry=3 
++ Fold04: mtry=4 
+- Fold04: mtry=4 
++ Fold04: mtry=5 
+- Fold04: mtry=5 
++ Fold04: mtry=6 
+- Fold04: mtry=6 
++ Fold04: mtry=7 
+- Fold04: mtry=7 
++ Fold04: mtry=8 
+- Fold04: mtry=8 
++ Fold05: mtry=2 
+- Fold05: mtry=2 
++ Fold05: mtry=3 
+- Fold05: mtry=3 
++ Fold05: mtry=4 
+- Fold05: mtry=4 
++ Fold05: mtry=5 
+- Fold05: mtry=5 
++ Fold05: mtry=6 
+- Fold05: mtry=6 
++ Fold05: mtry=7 
+- Fold05: mtry=7 
++ Fold05: mtry=8 
+- Fold05: mtry=8 
++ Fold06: mtry=2 
+- Fold06: mtry=2 
++ Fold06: mtry=3 
+- Fold06: mtry=3 
++ Fold06: mtry=4 
+- Fold06: mtry=4 
++ Fold06: mtry=5 
+- Fold06: mtry=5 
++ Fold06: mtry=6 
+- Fold06: mtry=6 
++ Fold06: mtry=7 
+- Fold06: mtry=7 
++ Fold06: mtry=8 
+- Fold06: mtry=8 
++ Fold07: mtry=2 
+- Fold07: mtry=2 
++ Fold07: mtry=3 
+- Fold07: mtry=3 
++ Fold07: mtry=4 
+- Fold07: mtry=4 
++ Fold07: mtry=5 
+- Fold07: mtry=5 
++ Fold07: mtry=6 
+- Fold07: mtry=6 
++ Fold07: mtry=7 
+- Fold07: mtry=7 
++ Fold07: mtry=8 
+- Fold07: mtry=8 
++ Fold08: mtry=2 
+- Fold08: mtry=2 
++ Fold08: mtry=3 
+- Fold08: mtry=3 
++ Fold08: mtry=4 
+- Fold08: mtry=4 
++ Fold08: mtry=5 
+- Fold08: mtry=5 
++ Fold08: mtry=6 
+- Fold08: mtry=6 
++ Fold08: mtry=7 
+- Fold08: mtry=7 
++ Fold08: mtry=8 
+- Fold08: mtry=8 
++ Fold09: mtry=2 
+- Fold09: mtry=2 
++ Fold09: mtry=3 
+- Fold09: mtry=3 
++ Fold09: mtry=4 
+- Fold09: mtry=4 
++ Fold09: mtry=5 
+- Fold09: mtry=5 
++ Fold09: mtry=6 
+- Fold09: mtry=6 
++ Fold09: mtry=7 
+- Fold09: mtry=7 
++ Fold09: mtry=8 
+- Fold09: mtry=8 
++ Fold10: mtry=2 
+- Fold10: mtry=2 
++ Fold10: mtry=3 
+- Fold10: mtry=3 
++ Fold10: mtry=4 
+- Fold10: mtry=4 
++ Fold10: mtry=5 
+- Fold10: mtry=5 
++ Fold10: mtry=6 
+- Fold10: mtry=6 
++ Fold10: mtry=7 
+- Fold10: mtry=7 
++ Fold10: mtry=8 
+- Fold10: mtry=8 
+Aggregating results
+Selecting tuning parameters
+Fitting mtry = 7 on full training set
+There were 21 warnings (use warnings() to see them)
+Random Forest 
+
+1413 samples
+   6 predictors
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+
+Summary of sample sizes: 1271, 1272, 1272, 1272, 1272, 1273, ... 
+
+Resampling results across tuning parameters:
+
+  mtry  RMSE       Rsquared   RMSE SD     Rsquared SD 
+  2     0.5984216  0.9916176  0.12925284  0.0036980118
+  3     0.5527993  0.9927448  0.09162697  0.0023640891
+  4     0.5439259  0.9930347  0.06726631  0.0015705657
+  5     0.5335565  0.9933549  0.04340252  0.0009634449
+  6     0.5328239  0.9933448  0.03806650  0.0009164623
+  7     0.5301408  0.9934095  0.04062779  0.0009414887
+  8     0.5331705  0.9933400  0.03726238  0.0008842516
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was mtry = 7. 
+
+========================================================
+
+interpolating year 2012 month 2: run 1 of 32
+
+========================================================
+
+
+
+fitting final rfe model interpolation
+
+
+
+adapting final rfe prediction with kriged prediction errors
+
+[using ordinary kriging]
+
+
+fitting final varsel model interpolation
+
+
+
+adapting final varsel prediction with kriged prediction errors
+

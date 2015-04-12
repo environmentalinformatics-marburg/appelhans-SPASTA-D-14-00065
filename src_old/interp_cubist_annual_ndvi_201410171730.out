@@ -1,0 +1,62 @@
+Loading required package: sp
+Loading required package: lattice
+Loading required package: ggplot2
+rgdal: version: 0.8-16, (SVN revision 498)
+Geospatial Data Abstraction Library extensions to R successfully loaded
+Loaded GDAL runtime: GDAL 1.7.3, released 2010/11/10
+Path to GDAL shared files: /usr/share/gdal/1.7
+GDAL does not use iconv for recoding strings.
+Loaded PROJ.4 runtime: Rel. 4.7.1, 23 September 2009, [PJ_VERSION: 470]
+Path to PROJ.4 shared files: (autodetected)
+OGR data source with driver: ESRI Shapefile 
+Source: "plots_shp/PlotPoles_ARC1960_mod_20140807_final.shp", layer: "PlotPoles_ARC1960_mod_20140807_final"
+with 1248 features and 7 fields
+Feature type: wkbPoint with 2 dimensions
+Warning message:
+In ReplProj4string(obj, CRS(value)) :
+  A new CRS was assigned to an object with an existing CRS:
++proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+without reprojecting.
+For reprojection, use function spTransform in package rgdal
+Loading required package: Cubist
+interpolating 1 1 
+interpolating 1 2 
+interpolating 1 3 
+interpolating 1 4 
+interpolating 1 5 
+interpolating 1 6 
+interpolating 1 7 
+interpolating 1 8 
+interpolating 1 9 
+interpolating 1 10 
+interpolating 1 11 
+interpolating 1 12 
+interpolating 2 1 
+interpolating 2 2 
+interpolating 2 3 
+interpolating 2 4 
+interpolating 2 5 
+interpolating 2 6 
+interpolating 2 7 
+interpolating 2 8 
+interpolating 2 9 
+interpolating 2 10 
+interpolating 2 11 
+interpolating 2 12 
+interpolating 3 1 
+interpolating 3 2 
+interpolating 3 3 
+interpolating 3 4 
+interpolating 3 5 
+interpolating 3 6 
+interpolating 3 7 
+interpolating 3 8 
+interpolating 3 9 
+interpolating 3 10 
+interpolating 3 11 
+interpolating 3 12 
+interpolating 4 1 
+interpolating 4 2 
+interpolating 4 3 
+interpolating 4 4 
+...finished...

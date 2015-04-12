@@ -1,0 +1,2820 @@
+Loading required package: sp
+Loading required package: lattice
+Loading required package: ggplot2
+rgdal: version: 0.8-16, (SVN revision 498)
+Geospatial Data Abstraction Library extensions to R successfully loaded
+Loaded GDAL runtime: GDAL 1.7.3, released 2010/11/10
+Path to GDAL shared files: /usr/share/gdal/1.7
+GDAL does not use iconv for recoding strings.
+Loaded PROJ.4 runtime: Rel. 4.7.1, 23 September 2009, [PJ_VERSION: 470]
+Path to PROJ.4 shared files: (autodetected)
+OGR data source with driver: ESRI Shapefile 
+Source: "plots_shp/PlotPoles_ARC1960_mod_20140807_final.shp", layer: "PlotPoles_ARC1960_mod_20140807_final"
+with 1248 features and 7 fields
+Feature type: wkbPoint with 2 dimensions
+Warning message:
+In ReplProj4string(obj, CRS(value)) :
+  A new CRS was assigned to an object with an existing CRS:
++proj=utm +zone=37 +south +ellps=clrk80 +units=m +no_defs
+without reprojecting.
+For reprojection, use function spTransform in package rgdal
+
+
+RUNNING knn : ITERATION 1 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.22  0.891     0.0872   0.00974    
+  4   2.16  0.898     0.0771   0.00816    
+  5   2.11  0.903     0.0854   0.00855    
+  6   2.05  0.909     0.0798   0.00854    
+  7   2.02  0.912     0.0893   0.00996    
+  8   1.99  0.915     0.0913   0.0103     
+  9   1.97  0.918     0.0795   0.00892    
+  10  1.96  0.92      0.0777   0.00854    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 2 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.893     0.0847   0.0107     
+  4   2.15  0.899     0.0802   0.00953    
+  5   2.11  0.903     0.0835   0.00882    
+  6   2.08  0.906     0.0761   0.00847    
+  7   2.05  0.909     0.0704   0.00787    
+  8   2.01  0.913     0.0776   0.00816    
+  9   1.99  0.916     0.0865   0.00842    
+  10  1.96  0.919     0.092    0.00847    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 3 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.897     0.0795   0.0102     
+  4   2.14  0.903     0.0771   0.00958    
+  5   2.09  0.908     0.0818   0.00865    
+  6   2.06  0.911     0.0878   0.00829    
+  7   2.02  0.915     0.0827   0.00733    
+  8   1.99  0.919     0.0807   0.00695    
+  9   1.96  0.922     0.0785   0.0065     
+  10  1.95  0.924     0.0832   0.00631    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 4 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.89      0.0884   0.0118     
+  4   2.16  0.895     0.0792   0.0103     
+  5   2.11  0.9       0.0843   0.0104     
+  6   2.07  0.905     0.0851   0.0105     
+  7   2.03  0.909     0.0746   0.00994    
+  8   2     0.913     0.074    0.00917    
+  9   1.98  0.915     0.077    0.00914    
+  10  1.97  0.917     0.0753   0.00894    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 5 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.894     0.0854   0.00883    
+  4   2.12  0.9       0.0788   0.00702    
+  5   2.08  0.904     0.073    0.00636    
+  6   2.06  0.907     0.0754   0.00632    
+  7   2.02  0.911     0.0707   0.00652    
+  8   1.99  0.914     0.0758   0.00634    
+  9   1.98  0.916     0.0713   0.00556    
+  10  1.97  0.918     0.0611   0.00521    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 6 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.884     0.0663   0.0102     
+  4   2.16  0.892     0.0822   0.0115     
+  5   2.13  0.896     0.0804   0.0112     
+  6   2.07  0.902     0.0922   0.012      
+  7   2.03  0.906     0.096    0.012      
+  8   2     0.91      0.0992   0.0117     
+  9   1.98  0.912     0.0991   0.0116     
+  10  1.97  0.915     0.0977   0.0115     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 7 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.89      0.0892   0.0114     
+  4   2.17  0.896     0.0684   0.00951    
+  5   2.11  0.902     0.0758   0.00924    
+  6   2.07  0.907     0.0649   0.00853    
+  7   2.03  0.911     0.0683   0.0082     
+  8   2     0.915     0.0697   0.00783    
+  9   1.98  0.917     0.0685   0.00748    
+  10  1.96  0.919     0.0698   0.00724    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 8 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.889     0.0981   0.0127     
+  4   2.16  0.896     0.0838   0.0114     
+  5   2.12  0.901     0.0748   0.0109     
+  6   2.07  0.905     0.0749   0.0114     
+  7   2.03  0.909     0.0676   0.0108     
+  8   2     0.913     0.0707   0.0107     
+  9   1.98  0.916     0.0694   0.0103     
+  10  1.96  0.918     0.0732   0.0103     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 9 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.889     0.106    0.0125     
+  4   2.11  0.896     0.0976   0.0107     
+  5   2.06  0.901     0.0967   0.0104     
+  6   2.03  0.906     0.0918   0.00882    
+  7   1.99  0.91      0.0905   0.00806    
+  8   1.96  0.913     0.0807   0.00722    
+  9   1.95  0.915     0.0778   0.00712    
+  10  1.94  0.917     0.0812   0.00715    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 10 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.22  0.886     0.0725   0.00876    
+  4   2.15  0.894     0.0679   0.00846    
+  5   2.1   0.9       0.0756   0.00865    
+  6   2.06  0.904     0.0681   0.00811    
+  7   2.02  0.908     0.0743   0.00775    
+  8   2     0.911     0.0748   0.00735    
+  9   1.98  0.914     0.0706   0.00651    
+  10  1.96  0.917     0.0705   0.00661    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 11 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.26  0.891     0.109    0.0104     
+  4   2.18  0.898     0.104    0.01       
+  5   2.14  0.903     0.0999   0.00942    
+  6   2.1   0.907     0.0914   0.00894    
+  7   2.07  0.91      0.0988   0.00974    
+  8   2.04  0.914     0.0951   0.00944    
+  9   2.02  0.916     0.0913   0.00939    
+  10  2     0.918     0.0942   0.00923    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 12 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.22  0.892     0.0835   0.00858    
+  4   2.15  0.898     0.0874   0.00893    
+  5   2.11  0.903     0.098    0.00986    
+  6   2.06  0.908     0.0884   0.00921    
+  7   2.03  0.912     0.0897   0.00931    
+  8   2     0.915     0.0826   0.00861    
+  9   1.98  0.917     0.0783   0.00809    
+  10  1.97  0.919     0.0752   0.00768    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 13 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.24  0.889     0.0764   0.0103     
+  4   2.16  0.897     0.0836   0.0105     
+  5   2.11  0.903     0.0709   0.00911    
+  6   2.07  0.907     0.0758   0.0091     
+  7   2.03  0.911     0.0833   0.00891    
+  8   2     0.915     0.0822   0.00867    
+  9   1.98  0.917     0.0811   0.00845    
+  10  1.97  0.919     0.0811   0.00889    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 14 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.25  0.89      0.0936   0.0115     
+  4   2.17  0.897     0.104    0.0123     
+  5   2.12  0.902     0.1      0.0113     
+  6   2.08  0.907     0.0814   0.00956    
+  7   2.04  0.912     0.0961   0.0106     
+  8   2.01  0.915     0.0916   0.00968    
+  9   1.98  0.918     0.0906   0.00939    
+  10  1.96  0.921     0.082    0.00857    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 15 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.889     0.0923   0.0107     
+  4   2.18  0.895     0.0932   0.0106     
+  5   2.12  0.901     0.09     0.0104     
+  6   2.08  0.906     0.0806   0.00927    
+  7   2.04  0.91      0.0702   0.00865    
+  8   2.01  0.914     0.0595   0.0073     
+  9   1.99  0.916     0.0617   0.00679    
+  10  1.97  0.918     0.0563   0.00613    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 16 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.899     0.0732   0.00854    
+  4   2.12  0.905     0.0687   0.0077     
+  5   2.07  0.91      0.0729   0.00824    
+  6   2.03  0.914     0.0884   0.00767    
+  7   2     0.917     0.0862   0.0074     
+  8   1.97  0.921     0.0868   0.00717    
+  9   1.94  0.924     0.0816   0.00653    
+  10  1.92  0.926     0.0879   0.00685    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 17 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.24  0.888     0.0928   0.0138     
+  4   2.18  0.894     0.0808   0.0116     
+  5   2.12  0.9       0.0687   0.0106     
+  6   2.08  0.905     0.0627   0.00978    
+  7   2.04  0.91      0.0585   0.0096     
+  8   2.01  0.913     0.0691   0.0105     
+  9   1.98  0.917     0.0636   0.00948    
+  10  1.96  0.919     0.0611   0.00872    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 18 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.22  0.889     0.0879   0.011      
+  4   2.17  0.894     0.0784   0.00928    
+  5   2.11  0.9       0.0746   0.00848    
+  6   2.07  0.905     0.0842   0.00904    
+  7   2.02  0.91      0.0926   0.00905    
+  8   1.98  0.915     0.0967   0.00975    
+  9   1.96  0.917     0.101    0.01       
+  10  1.94  0.92      0.1      0.00969    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 19 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.888     0.0783   0.0106     
+  4   2.12  0.895     0.0697   0.00948    
+  5   2.07  0.9       0.0797   0.01       
+  6   2.03  0.905     0.0827   0.00978    
+  7   2     0.908     0.0822   0.00954    
+  8   1.98  0.911     0.0753   0.00855    
+  9   1.95  0.914     0.0826   0.00844    
+  10  1.94  0.916     0.0847   0.00798    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 20 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.28  0.886     0.0901   0.0106     
+  4   2.19  0.894     0.104    0.0119     
+  5   2.13  0.901     0.103    0.0111     
+  6   2.08  0.906     0.0951   0.0103     
+  7   2.05  0.91      0.0856   0.00866    
+  8   2.01  0.913     0.0776   0.0079     
+  9   1.98  0.917     0.074    0.00693    
+  10  1.95  0.92      0.07     0.00663    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 21 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.893     0.0756   0.00832    
+  4   2.15  0.899     0.0802   0.00831    
+  5   2.1   0.904     0.0839   0.00835    
+  6   2.06  0.909     0.0832   0.00761    
+  7   2.03  0.912     0.0767   0.00687    
+  8   2     0.916     0.0812   0.00718    
+  9   1.99  0.918     0.0809   0.00703    
+  10  1.97  0.92      0.0808   0.00686    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 22 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.17  0.896     0.0659   0.0078     
+  4   2.11  0.902     0.0679   0.00921    
+  5   2.06  0.907     0.078    0.00927    
+  6   2.03  0.91      0.0732   0.00858    
+  7   1.99  0.915     0.0769   0.0082     
+  8   1.97  0.918     0.0731   0.00785    
+  9   1.96  0.919     0.0727   0.00777    
+  10  1.95  0.921     0.0751   0.00801    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 23 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.886     0.0936   0.0108     
+  4   2.17  0.893     0.089    0.00992    
+  5   2.12  0.898     0.089    0.00976    
+  6   2.07  0.904     0.092    0.00959    
+  7   2.04  0.907     0.0976   0.0102     
+  8   2.02  0.91      0.0848   0.00898    
+  9   2     0.913     0.0875   0.00916    
+  10  1.98  0.915     0.0825   0.00863    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 24 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.19  0.896     0.0967   0.0118     
+  4   2.11  0.904     0.0843   0.0105     
+  5   2.06  0.909     0.0906   0.011      
+  6   2.01  0.913     0.0748   0.00918    
+  7   1.99  0.916     0.0702   0.00806    
+  8   1.96  0.919     0.0601   0.00685    
+  9   1.93  0.922     0.0579   0.00659    
+  10  1.92  0.924     0.0563   0.00651    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 25 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.893     0.107    0.0123     
+  4   2.15  0.899     0.0877   0.0102     
+  5   2.12  0.902     0.0927   0.0103     
+  6   2.08  0.907     0.0859   0.00993    
+  7   2.04  0.911     0.0784   0.00937    
+  8   2.01  0.914     0.0772   0.0089     
+  9   1.99  0.917     0.0751   0.00923    
+  10  1.98  0.919     0.0779   0.00976    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 26 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.893     0.0915   0.0109     
+  4   2.15  0.899     0.0784   0.00958    
+  5   2.1   0.904     0.0666   0.00852    
+  6   2.05  0.91      0.0627   0.00729    
+  7   2.02  0.913     0.0593   0.00654    
+  8   1.99  0.916     0.0633   0.00667    
+  9   1.97  0.918     0.071    0.00682    
+  10  1.97  0.92      0.0778   0.0077     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 27 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.891     0.0725   0.00945    
+  4   2.14  0.898     0.0686   0.009      
+  5   2.09  0.903     0.0736   0.00902    
+  6   2.06  0.906     0.0663   0.00846    
+  7   2.03  0.91      0.0618   0.00786    
+  8   2     0.913     0.061    0.00749    
+  9   1.98  0.916     0.0591   0.00726    
+  10  1.97  0.918     0.0637   0.00757    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 28 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.19  0.891     0.0686   0.00964    
+  4   2.12  0.898     0.0764   0.00915    
+  5   2.06  0.904     0.0708   0.00836    
+  6   2.03  0.908     0.0727   0.00783    
+  7   1.99  0.912     0.0759   0.00803    
+  8   1.97  0.915     0.0844   0.00887    
+  9   1.94  0.918     0.0874   0.00838    
+  10  1.92  0.92      0.0814   0.00757    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 29 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.892     0.0795   0.00989    
+  4   2.13  0.9       0.076    0.00849    
+  5   2.09  0.905     0.0761   0.00804    
+  6   2.05  0.909     0.0729   0.00823    
+  7   2     0.914     0.0747   0.0077     
+  8   1.96  0.918     0.0813   0.00772    
+  9   1.94  0.921     0.0904   0.00826    
+  10  1.92  0.923     0.0823   0.00731    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 30 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.891     0.0637   0.00991    
+  4   2.17  0.896     0.0698   0.0104     
+  5   2.12  0.902     0.0697   0.01       
+  6   2.08  0.907     0.0784   0.0104     
+  7   2.03  0.911     0.0749   0.00998    
+  8   2     0.915     0.0729   0.00926    
+  9   1.97  0.918     0.0742   0.00866    
+  10  1.95  0.921     0.0768   0.00869    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 31 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.895     0.0893   0.00758    
+  4   2.12  0.901     0.0905   0.00794    
+  5   2.08  0.906     0.0972   0.00836    
+  6   2.05  0.909     0.0921   0.0081     
+  7   2.02  0.912     0.0904   0.00806    
+  8   2     0.915     0.0884   0.00793    
+  9   1.97  0.918     0.0892   0.00776    
+  10  1.96  0.92      0.0914   0.00773    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 32 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.89      0.0668   0.00869    
+  4   2.15  0.897     0.0774   0.00773    
+  5   2.08  0.904     0.081    0.00873    
+  6   2.04  0.908     0.0774   0.00836    
+  7   2     0.913     0.0654   0.00731    
+  8   1.97  0.916     0.0645   0.00659    
+  9   1.95  0.918     0.0652   0.00663    
+  10  1.93  0.921     0.0713   0.00685    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 33 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.24  0.889     0.0893   0.0117     
+  4   2.18  0.896     0.0822   0.00997    
+  5   2.12  0.902     0.0883   0.0099     
+  6   2.07  0.907     0.0766   0.00766    
+  7   2.04  0.91      0.0809   0.00807    
+  8   2     0.914     0.0868   0.00808    
+  9   1.98  0.917     0.0886   0.0083     
+  10  1.96  0.919     0.0912   0.0082     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 34 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.894     0.099    0.0121     
+  4   2.13  0.902     0.0843   0.0103     
+  5   2.07  0.908     0.0839   0.0103     
+  6   2.03  0.912     0.0845   0.00997    
+  7   2     0.915     0.0814   0.00951    
+  8   1.98  0.917     0.0761   0.00903    
+  9   1.96  0.919     0.0715   0.00841    
+  10  1.95  0.921     0.0745   0.00852    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 35 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.26  0.89      0.1      0.0119     
+  4   2.18  0.899     0.0929   0.0103     
+  5   2.12  0.905     0.0758   0.00943    
+  6   2.08  0.909     0.0758   0.00974    
+  7   2.05  0.913     0.0702   0.00971    
+  8   2.02  0.916     0.0688   0.00876    
+  9   1.99  0.919     0.0667   0.00771    
+  10  1.97  0.922     0.0794   0.00788    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 36 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.895     0.0989   0.0114     
+  4   2.11  0.902     0.0762   0.00905    
+  5   2.06  0.907     0.0774   0.00826    
+  6   2.03  0.911     0.0703   0.00678    
+  7   2     0.914     0.0824   0.00725    
+  8   1.98  0.916     0.079    0.00673    
+  9   1.97  0.918     0.0826   0.00676    
+  10  1.96  0.92      0.0832   0.00694    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 37 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.895     0.0846   0.0129     
+  4   2.13  0.903     0.0864   0.0125     
+  5   2.08  0.908     0.0981   0.0131     
+  6   2.04  0.912     0.11     0.0135     
+  7   2.01  0.915     0.107    0.0131     
+  8   1.98  0.918     0.0873   0.0109     
+  9   1.96  0.921     0.0851   0.0098     
+  10  1.94  0.924     0.083    0.0091     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 38 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.89      0.0759   0.0104     
+  4   2.15  0.899     0.0726   0.009      
+  5   2.1   0.904     0.0774   0.00847    
+  6   2.05  0.909     0.0785   0.00877    
+  7   2.02  0.912     0.0763   0.00877    
+  8   1.99  0.916     0.0735   0.00832    
+  9   1.96  0.919     0.0679   0.00765    
+  10  1.95  0.921     0.0647   0.00755    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 39 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.894     0.0758   0.0104     
+  4   2.13  0.9       0.083    0.00966    
+  5   2.08  0.905     0.0781   0.0101     
+  6   2.04  0.909     0.078    0.00935    
+  7   2.01  0.913     0.0772   0.00823    
+  8   1.98  0.916     0.0664   0.00742    
+  9   1.95  0.919     0.0721   0.00723    
+  10  1.94  0.921     0.0738   0.00748    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 40 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.889     0.0797   0.00831    
+  4   2.16  0.896     0.0799   0.00837    
+  5   2.12  0.9       0.0727   0.00644    
+  6   2.09  0.904     0.0716   0.00633    
+  7   2.05  0.908     0.0742   0.00605    
+  8   2.02  0.912     0.0793   0.00649    
+  9   1.99  0.915     0.0913   0.00693    
+  10  1.98  0.917     0.0953   0.00717    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 41 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.26  0.884     0.0896   0.0109     
+  4   2.21  0.889     0.0944   0.0116     
+  5   2.17  0.894     0.0888   0.00978    
+  6   2.12  0.9       0.0946   0.00952    
+  7   2.09  0.904     0.0908   0.00949    
+  8   2.07  0.906     0.094    0.00987    
+  9   2.04  0.909     0.103    0.0105     
+  10  2.03  0.912     0.1      0.00965    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 42 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.885     0.081    0.00958    
+  4   2.17  0.891     0.0888   0.00991    
+  5   2.13  0.896     0.0752   0.00951    
+  6   2.1   0.9       0.0745   0.00885    
+  7   2.07  0.904     0.0846   0.00928    
+  8   2.03  0.908     0.0766   0.00855    
+  9   2     0.911     0.0725   0.00783    
+  10  1.98  0.914     0.0818   0.00825    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 43 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.26  0.888     0.0925   0.0147     
+  4   2.17  0.896     0.0834   0.0134     
+  5   2.12  0.901     0.0885   0.0129     
+  6   2.07  0.907     0.0938   0.0124     
+  7   2.03  0.911     0.0899   0.0115     
+  8   2.01  0.914     0.0812   0.0108     
+  9   1.98  0.916     0.0795   0.0105     
+  10  1.96  0.919     0.0755   0.00943    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 44 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.888     0.0996   0.0127     
+  4   2.14  0.896     0.0978   0.0117     
+  5   2.09  0.902     0.0938   0.0105     
+  6   2.04  0.908     0.0913   0.00965    
+  7   2     0.912     0.0955   0.0098     
+  8   1.96  0.916     0.0957   0.00967    
+  9   1.94  0.919     0.0891   0.0091     
+  10  1.91  0.922     0.0808   0.00834    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 45 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.17  0.893     0.0894   0.00937    
+  4   2.11  0.899     0.0735   0.00768    
+  5   2.05  0.906     0.0803   0.00861    
+  6   2.01  0.91      0.0612   0.00768    
+  7   1.98  0.913     0.064    0.00741    
+  8   1.96  0.916     0.0729   0.00767    
+  9   1.95  0.918     0.0708   0.0072     
+  10  1.94  0.919     0.0748   0.00725    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 46 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.884     0.0984   0.0117     
+  4   2.14  0.893     0.0965   0.0108     
+  5   2.09  0.9       0.103    0.0104     
+  6   2.04  0.905     0.105    0.0101     
+  7   2.02  0.908     0.102    0.00961    
+  8   2     0.911     0.0939   0.00839    
+  9   1.98  0.914     0.0921   0.00808    
+  10  1.96  0.916     0.0927   0.00799    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 47 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.895     0.11     0.0112     
+  4   2.12  0.902     0.103    0.0107     
+  5   2.08  0.907     0.0919   0.00868    
+  6   2.04  0.911     0.088    0.00826    
+  7   2.01  0.914     0.0865   0.00787    
+  8   1.99  0.917     0.0839   0.00731    
+  9   1.97  0.919     0.0852   0.00715    
+  10  1.96  0.921     0.0791   0.00674    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 48 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.885     0.0766   0.0106     
+  4   2.15  0.891     0.0713   0.00987    
+  5   2.11  0.895     0.0716   0.00879    
+  6   2.07  0.901     0.0714   0.00772    
+  7   2.04  0.904     0.0728   0.00773    
+  8   2.01  0.907     0.0687   0.00751    
+  9   2     0.91      0.07     0.00746    
+  10  1.98  0.912     0.0713   0.00753    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 49 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.89      0.0875   0.0119     
+  4   2.17  0.896     0.103    0.0121     
+  5   2.13  0.901     0.103    0.0111     
+  6   2.09  0.905     0.103    0.0113     
+  7   2.06  0.908     0.102    0.0105     
+  8   2.02  0.913     0.0984   0.01       
+  9   1.98  0.917     0.0968   0.00974    
+  10  1.97  0.919     0.0998   0.0101     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 50 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.15  0.897     0.0899   0.0123     
+  4   2.1   0.901     0.0941   0.0125     
+  5   2.06  0.906     0.0905   0.0116     
+  6   2.03  0.91      0.0923   0.0106     
+  7   2     0.913     0.0987   0.0106     
+  8   1.96  0.917     0.0925   0.0101     
+  9   1.93  0.92      0.0912   0.00896    
+  10  1.92  0.922     0.0845   0.00782    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 51 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.892     0.0912   0.0104     
+  4   2.18  0.897     0.104    0.0111     
+  5   2.13  0.901     0.106    0.0104     
+  6   2.1   0.906     0.101    0.00999    
+  7   2.06  0.91      0.0926   0.00875    
+  8   2.04  0.912     0.0919   0.00924    
+  9   2.01  0.915     0.104    0.00998    
+  10  1.99  0.918     0.103    0.00943    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 52 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.89      0.0703   0.0112     
+  4   2.14  0.897     0.0686   0.0103     
+  5   2.08  0.903     0.0656   0.00842    
+  6   2.05  0.907     0.0636   0.00732    
+  7   2.01  0.911     0.0721   0.00778    
+  8   1.98  0.914     0.0728   0.00741    
+  9   1.97  0.917     0.072    0.0068     
+  10  1.96  0.918     0.0785   0.00747    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 53 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.22  0.889     0.0953   0.0114     
+  4   2.15  0.895     0.089    0.0101     
+  5   2.11  0.9       0.0805   0.00924    
+  6   2.08  0.904     0.0776   0.00847    
+  7   2.04  0.907     0.0859   0.00914    
+  8   2.02  0.911     0.0911   0.00905    
+  9   2     0.913     0.0925   0.00883    
+  10  1.99  0.915     0.0939   0.00883    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 54 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.886     0.0868   0.0105     
+  4   2.16  0.893     0.082    0.00966    
+  5   2.12  0.898     0.0793   0.00903    
+  6   2.08  0.902     0.0894   0.0104     
+  7   2.05  0.906     0.0818   0.00947    
+  8   2.02  0.91      0.0741   0.00829    
+  9   1.99  0.913     0.0685   0.00813    
+  10  1.97  0.916     0.0751   0.00801    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 55 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.89      0.0856   0.0121     
+  4   2.12  0.896     0.0731   0.0102     
+  5   2.09  0.9       0.0648   0.00778    
+  6   2.06  0.903     0.0709   0.00904    
+  7   2.03  0.907     0.0808   0.00891    
+  8   2     0.91      0.0834   0.00885    
+  9   1.97  0.914     0.0801   0.00794    
+  10  1.95  0.916     0.0781   0.00762    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 56 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.16  0.9       0.0774   0.0072     
+  4   2.09  0.906     0.0687   0.00651    
+  5   2.05  0.911     0.0763   0.00659    
+  6   2.02  0.914     0.0779   0.00664    
+  7   2.01  0.916     0.0758   0.00574    
+  8   1.98  0.918     0.0854   0.00589    
+  9   1.97  0.92      0.0828   0.00603    
+  10  1.96  0.922     0.089    0.00676    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 57 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.894     0.0627   0.00748    
+  4   2.16  0.899     0.0735   0.00761    
+  5   2.11  0.904     0.07     0.00664    
+  6   2.09  0.907     0.085    0.00722    
+  7   2.06  0.91      0.0934   0.00753    
+  8   2.04  0.913     0.0817   0.00626    
+  9   2.02  0.915     0.0749   0.00615    
+  10  2     0.917     0.0745   0.00583    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 58 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.19  0.897     0.0777   0.0096     
+  4   2.12  0.904     0.0702   0.00899    
+  5   2.07  0.908     0.0783   0.00909    
+  6   2.04  0.912     0.0921   0.00989    
+  7   2     0.916     0.089    0.00929    
+  8   1.96  0.92      0.0953   0.00936    
+  9   1.93  0.923     0.0889   0.00863    
+  10  1.93  0.924     0.0809   0.00772    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 59 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.89      0.0908   0.0124     
+  4   2.16  0.897     0.0774   0.0103     
+  5   2.14  0.9       0.0789   0.00921    
+  6   2.1   0.905     0.0776   0.00875    
+  7   2.07  0.908     0.0854   0.00929    
+  8   2.04  0.911     0.0783   0.00888    
+  9   2.02  0.914     0.0691   0.00772    
+  10  2     0.916     0.0625   0.0073     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 60 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.22  0.892     0.0944   0.00971    
+  4   2.17  0.897     0.0862   0.00939    
+  5   2.11  0.903     0.0847   0.00953    
+  6   2.06  0.908     0.0798   0.00912    
+  7   2.03  0.912     0.08     0.00858    
+  8   2     0.915     0.0859   0.00882    
+  9   1.99  0.917     0.0934   0.0097     
+  10  1.97  0.919     0.091    0.00934    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 61 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.894     0.0828   0.0125     
+  4   2.13  0.901     0.0934   0.0123     
+  5   2.09  0.905     0.0838   0.0101     
+  6   2.04  0.91      0.0862   0.00938    
+  7   2.01  0.914     0.0813   0.00868    
+  8   1.98  0.917     0.0852   0.00851    
+  9   1.95  0.92      0.0924   0.00875    
+  10  1.94  0.921     0.0881   0.00827    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 62 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.25  0.886     0.0797   0.0104     
+  4   2.19  0.892     0.0825   0.00989    
+  5   2.15  0.897     0.0812   0.00884    
+  6   2.1   0.902     0.0727   0.00781    
+  7   2.07  0.906     0.0697   0.00775    
+  8   2.04  0.909     0.0788   0.008      
+  9   2.02  0.912     0.0769   0.00791    
+  10  2     0.915     0.0766   0.00779    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 63 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.892     0.0854   0.0101     
+  4   2.14  0.898     0.0994   0.0104     
+  5   2.08  0.905     0.0783   0.00853    
+  6   2.04  0.909     0.0823   0.00813    
+  7   2.02  0.912     0.0882   0.00922    
+  8   1.99  0.915     0.0847   0.00888    
+  9   1.96  0.918     0.0875   0.00894    
+  10  1.95  0.92      0.0834   0.00834    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 64 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.891     0.0897   0.0106     
+  4   2.15  0.896     0.0854   0.0105     
+  5   2.1   0.901     0.0871   0.00998    
+  6   2.07  0.905     0.074    0.00921    
+  7   2.03  0.909     0.0703   0.00857    
+  8   2.01  0.911     0.0765   0.00825    
+  9   1.99  0.914     0.075    0.00843    
+  10  1.97  0.916     0.0836   0.00904    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 65 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.892     0.0808   0.00903    
+  4   2.18  0.897     0.0643   0.00724    
+  5   2.13  0.901     0.0694   0.0071     
+  6   2.1   0.905     0.0843   0.0085     
+  7   2.05  0.91      0.0793   0.00804    
+  8   2.02  0.914     0.0871   0.00831    
+  9   2     0.916     0.0889   0.00823    
+  10  1.98  0.918     0.0901   0.00804    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 66 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.892     0.0865   0.0112     
+  4   2.15  0.899     0.0821   0.00966    
+  5   2.11  0.903     0.0902   0.0101     
+  6   2.07  0.908     0.087    0.00953    
+  7   2.03  0.911     0.0837   0.00878    
+  8   2     0.915     0.097    0.00933    
+  9   1.98  0.918     0.0954   0.00897    
+  10  1.96  0.92      0.0943   0.00879    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 67 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.17  0.895     0.0971   0.0108     
+  4   2.1   0.903     0.092    0.0105     
+  5   2.05  0.908     0.0815   0.00924    
+  6   2.01  0.912     0.0876   0.00949    
+  7   1.98  0.916     0.0846   0.0082     
+  8   1.96  0.918     0.0754   0.00716    
+  9   1.93  0.921     0.0712   0.00629    
+  10  1.92  0.923     0.0655   0.0059     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 68 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.891     0.107    0.0124     
+  4   2.1   0.899     0.105    0.011      
+  5   2.06  0.904     0.105    0.0101     
+  6   2.03  0.907     0.102    0.00908    
+  7   2     0.911     0.102    0.00849    
+  8   1.97  0.914     0.106    0.0089     
+  9   1.95  0.916     0.106    0.00869    
+  10  1.94  0.918     0.109    0.00872    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 69 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.89      0.0909   0.01       
+  4   2.15  0.896     0.0771   0.0082     
+  5   2.09  0.902     0.0805   0.00676    
+  6   2.05  0.907     0.0686   0.00597    
+  7   2.02  0.91      0.0723   0.00662    
+  8   2     0.913     0.0664   0.00569    
+  9   1.98  0.915     0.0621   0.00522    
+  10  1.97  0.917     0.0553   0.00469    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 70 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.894     0.0662   0.00934    
+  4   2.13  0.899     0.0703   0.00865    
+  5   2.08  0.904     0.0698   0.00809    
+  6   2.05  0.908     0.0702   0.00845    
+  7   2.01  0.912     0.0755   0.00791    
+  8   1.99  0.915     0.0817   0.00847    
+  9   1.97  0.917     0.0841   0.00838    
+  10  1.94  0.92      0.0767   0.00759    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 71 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.22  0.891     0.0711   0.0112     
+  4   2.14  0.899     0.0728   0.0102     
+  5   2.08  0.905     0.0696   0.00939    
+  6   2.05  0.909     0.0661   0.00945    
+  7   2.01  0.913     0.0746   0.00949    
+  8   2     0.915     0.078    0.0086     
+  9   1.97  0.918     0.0764   0.00837    
+  10  1.95  0.92      0.0807   0.00845    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 72 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.892     0.0868   0.0109     
+  4   2.12  0.9       0.0846   0.0103     
+  5   2.08  0.904     0.0732   0.00891    
+  6   2.04  0.909     0.0717   0.00873    
+  7   2.01  0.912     0.0639   0.00831    
+  8   1.98  0.915     0.0636   0.00804    
+  9   1.94  0.919     0.0656   0.00787    
+  10  1.92  0.922     0.0623   0.00725    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 73 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.21  0.887     0.0725   0.0102     
+  4   2.14  0.894     0.0715   0.0105     
+  5   2.09  0.9       0.0746   0.01       
+  6   2.05  0.905     0.0743   0.00985    
+  7   2.02  0.908     0.0747   0.00945    
+  8   2     0.911     0.072    0.00844    
+  9   1.98  0.913     0.0656   0.00761    
+  10  1.96  0.916     0.0646   0.0076     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 74 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.895     0.0785   0.0097     
+  4   2.12  0.901     0.0762   0.0089     
+  5   2.08  0.905     0.0886   0.0101     
+  6   2.04  0.91      0.0928   0.0102     
+  7   2.01  0.913     0.0935   0.0104     
+  8   1.99  0.916     0.0991   0.0107     
+  9   1.97  0.918     0.103    0.0107     
+  10  1.95  0.921     0.106    0.0107     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 75 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.898     0.0848   0.00862    
+  4   2.12  0.905     0.0782   0.00899    
+  5   2.07  0.911     0.0762   0.00927    
+  6   2.03  0.915     0.0777   0.00845    
+  7   2     0.918     0.0779   0.00848    
+  8   1.97  0.92      0.0832   0.00912    
+  9   1.95  0.923     0.0854   0.00928    
+  10  1.93  0.925     0.0777   0.00845    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 76 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.89      0.0905   0.00848    
+  4   2.16  0.897     0.0836   0.00779    
+  5   2.12  0.902     0.0777   0.00665    
+  6   2.06  0.907     0.0881   0.00677    
+  7   2.02  0.912     0.0869   0.00649    
+  8   1.98  0.916     0.0975   0.00665    
+  9   1.95  0.919     0.0963   0.00663    
+  10  1.93  0.921     0.0902   0.00596    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 77 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.22  0.887     0.0749   0.01       
+  4   2.16  0.892     0.0746   0.00965    
+  5   2.11  0.898     0.0802   0.00855    
+  6   2.06  0.904     0.0883   0.00818    
+  7   2.02  0.908     0.0865   0.00773    
+  8   1.99  0.912     0.0966   0.00768    
+  9   1.96  0.915     0.107    0.00784    
+  10  1.95  0.917     0.102    0.0079     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 78 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.26  0.878     0.0791   0.0129     
+  4   2.18  0.888     0.0821   0.0117     
+  5   2.13  0.894     0.0752   0.0111     
+  6   2.08  0.9       0.071    0.0107     
+  7   2.04  0.904     0.072    0.0109     
+  8   2     0.909     0.0683   0.00993    
+  9   1.97  0.913     0.0659   0.00926    
+  10  1.95  0.915     0.0765   0.00923    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 79 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.887     0.0864   0.00945    
+  4   2.17  0.894     0.091    0.00911    
+  5   2.12  0.9       0.0913   0.00886    
+  6   2.08  0.904     0.0816   0.00836    
+  7   2.05  0.908     0.08     0.00789    
+  8   2.02  0.911     0.0793   0.00754    
+  9   1.99  0.914     0.0838   0.008      
+  10  1.97  0.917     0.0891   0.00802    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 80 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.891     0.0804   0.00971    
+  4   2.13  0.898     0.0686   0.00918    
+  5   2.08  0.904     0.0608   0.00706    
+  6   2.04  0.908     0.0694   0.00781    
+  7   2     0.913     0.0701   0.00762    
+  8   1.96  0.917     0.0707   0.00767    
+  9   1.92  0.921     0.0774   0.00811    
+  10  1.9   0.923     0.0779   0.00779    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 81 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.19  0.891     0.0574   0.0077     
+  4   2.12  0.898     0.0583   0.0075     
+  5   2.08  0.903     0.0689   0.00803    
+  6   2.05  0.906     0.0591   0.0069     
+  7   2.02  0.909     0.059    0.00674    
+  8   2     0.912     0.0501   0.00596    
+  9   1.98  0.915     0.0484   0.00614    
+  10  1.97  0.917     0.0445   0.00693    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 82 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.16  0.897     0.0698   0.0091     
+  4   2.11  0.902     0.0763   0.00905    
+  5   2.07  0.906     0.0751   0.00965    
+  6   2.05  0.909     0.0765   0.00971    
+  7   2.02  0.913     0.0721   0.00927    
+  8   2     0.915     0.0711   0.00812    
+  9   1.98  0.918     0.0757   0.0069     
+  10  1.97  0.92      0.0804   0.00596    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 83 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.24  0.892     0.0905   0.00855    
+  4   2.16  0.899     0.0701   0.00768    
+  5   2.11  0.904     0.0719   0.0067     
+  6   2.07  0.908     0.0734   0.00672    
+  7   2.03  0.912     0.069    0.00743    
+  8   2     0.916     0.0682   0.00716    
+  9   1.97  0.919     0.0731   0.0069     
+  10  1.96  0.921     0.0619   0.0059     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 84 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.892     0.0751   0.01       
+  4   2.13  0.899     0.0728   0.00961    
+  5   2.08  0.904     0.0686   0.00875    
+  6   2.04  0.908     0.0716   0.00849    
+  7   2.01  0.912     0.0773   0.00868    
+  8   1.98  0.915     0.0829   0.00876    
+  9   1.96  0.918     0.0866   0.0088     
+  10  1.93  0.92      0.0835   0.0083     
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 85 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.889     0.0891   0.0113     
+  4   2.13  0.896     0.0787   0.00961    
+  5   2.08  0.901     0.0782   0.00992    
+  6   2.04  0.906     0.07     0.00882    
+  7   2     0.91      0.0641   0.00764    
+  8   1.98  0.913     0.0685   0.00777    
+  9   1.95  0.917     0.065    0.00726    
+  10  1.93  0.919     0.0661   0.00682    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 86 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.898     0.0711   0.00758    
+  4   2.1   0.905     0.0668   0.0081     
+  5   2.04  0.911     0.0641   0.00782    
+  6   2.01  0.914     0.0697   0.00748    
+  7   1.98  0.918     0.0742   0.0071     
+  8   1.96  0.92      0.073    0.00686    
+  9   1.94  0.923     0.0719   0.00644    
+  10  1.92  0.924     0.0736   0.00657    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 87 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.19  0.893     0.0941   0.0139     
+  4   2.13  0.899     0.0877   0.0125     
+  5   2.08  0.905     0.0727   0.0109     
+  6   2.05  0.908     0.0776   0.0105     
+  7   2.03  0.911     0.0866   0.0106     
+  8   1.99  0.915     0.0919   0.0107     
+  9   1.98  0.917     0.0903   0.0101     
+  10  1.96  0.919     0.0867   0.00961    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 88 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.889     0.0994   0.0116     
+  4   2.15  0.895     0.1      0.0112     
+  5   2.11  0.899     0.0924   0.0102     
+  6   2.09  0.903     0.0854   0.00941    
+  7   2.06  0.907     0.0867   0.00896    
+  8   2.04  0.909     0.0882   0.00937    
+  9   2.02  0.911     0.0859   0.00984    
+  10  2.01  0.913     0.0836   0.00865    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 89 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.25  0.888     0.0909   0.00907    
+  4   2.17  0.896     0.0912   0.00906    
+  5   2.12  0.901     0.106    0.0105     
+  6   2.07  0.906     0.102    0.00991    
+  7   2.03  0.911     0.089    0.00869    
+  8   2     0.914     0.0783   0.00703    
+  9   1.98  0.917     0.0797   0.00722    
+  10  1.96  0.919     0.0902   0.00756    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 90 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.22  0.892     0.0918   0.00851    
+  4   2.18  0.896     0.0959   0.00941    
+  5   2.14  0.901     0.092    0.00912    
+  6   2.11  0.904     0.0835   0.00879    
+  7   2.09  0.906     0.0885   0.00922    
+  8   2.07  0.909     0.0916   0.00956    
+  9   2.06  0.911     0.0834   0.00888    
+  10  2.05  0.912     0.0749   0.00802    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 91 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.26  0.889     0.0954   0.0132     
+  4   2.19  0.896     0.0973   0.0132     
+  5   2.14  0.902     0.0829   0.0113     
+  6   2.1   0.906     0.0844   0.0109     
+  7   2.07  0.91      0.0798   0.0103     
+  8   2.03  0.914     0.0703   0.00922    
+  9   2.01  0.916     0.0703   0.0088     
+  10  1.99  0.918     0.0641   0.00836    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 92 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.24  0.886     0.0938   0.011      
+  4   2.14  0.896     0.0973   0.00983    
+  5   2.08  0.903     0.0838   0.0085     
+  6   2.05  0.907     0.0748   0.00812    
+  7   2.02  0.91      0.0674   0.00712    
+  8   1.99  0.913     0.0594   0.00661    
+  9   1.97  0.916     0.0593   0.00576    
+  10  1.95  0.919     0.0654   0.00624    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 93 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.18  0.896     0.0732   0.011      
+  4   2.13  0.902     0.0816   0.0108     
+  5   2.09  0.906     0.0842   0.0109     
+  6   2.04  0.911     0.0914   0.0106     
+  7   1.99  0.917     0.0863   0.00958    
+  8   1.95  0.921     0.0895   0.00897    
+  9   1.93  0.923     0.0947   0.00951    
+  10  1.92  0.925     0.0949   0.00926    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 94 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.16  0.899     0.0715   0.00972    
+  4   2.11  0.904     0.0713   0.00931    
+  5   2.06  0.909     0.0617   0.00805    
+  6   2.02  0.913     0.0738   0.00917    
+  7   2     0.915     0.081    0.00952    
+  8   1.97  0.919     0.0698   0.0083     
+  9   1.94  0.922     0.0683   0.00841    
+  10  1.91  0.924     0.0647   0.00747    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 95 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.891     0.0831   0.00734    
+  4   2.17  0.897     0.0923   0.00761    
+  5   2.11  0.903     0.0879   0.00724    
+  6   2.06  0.908     0.0984   0.00758    
+  7   2.03  0.911     0.0881   0.00736    
+  8   2     0.914     0.0883   0.00758    
+  9   1.98  0.917     0.0812   0.0074     
+  10  1.96  0.919     0.0809   0.00688    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 96 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.23  0.89      0.0997   0.0118     
+  4   2.16  0.897     0.0953   0.0105     
+  5   2.11  0.903     0.0852   0.00894    
+  6   2.06  0.908     0.0776   0.00805    
+  7   2.01  0.913     0.0861   0.00808    
+  8   1.99  0.916     0.0855   0.0078     
+  9   1.96  0.919     0.0869   0.00766    
+  10  1.94  0.921     0.089    0.00749    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 97 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.28  0.884     0.0816   0.0112     
+  4   2.2   0.892     0.08     0.00959    
+  5   2.15  0.898     0.0775   0.00858    
+  6   2.11  0.902     0.0887   0.00904    
+  7   2.07  0.907     0.0955   0.00972    
+  8   2.04  0.911     0.0894   0.00841    
+  9   2.01  0.914     0.0829   0.00751    
+  10  1.99  0.916     0.0866   0.00749    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 98 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.896     0.0869   0.00887    
+  4   2.14  0.902     0.0877   0.0087     
+  5   2.11  0.906     0.0842   0.00864    
+  6   2.07  0.91      0.0929   0.00892    
+  7   2.04  0.913     0.0956   0.00888    
+  8   2.03  0.915     0.0966   0.00883    
+  9   2.01  0.918     0.0927   0.00826    
+  10  1.99  0.92      0.084    0.00692    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 99 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.29  0.88      0.0855   0.0127     
+  4   2.22  0.887     0.0891   0.0113     
+  5   2.18  0.891     0.0818   0.0105     
+  6   2.13  0.897     0.0842   0.0106     
+  7   2.08  0.903     0.0919   0.0108     
+  8   2.04  0.907     0.088    0.0104     
+  9   2.01  0.911     0.0852   0.00956    
+  10  1.99  0.914     0.092    0.00949    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
+
+
+RUNNING knn : ITERATION 100 
+Loading required package: pROC
+k-Nearest Neighbors 
+
+1368 samples
+  10 predictors
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 1368, 1368, 1368, 1368, 1368, 1368, ... 
+
+Resampling results across tuning parameters:
+
+  k   RMSE  Rsquared  RMSE SD  Rsquared SD
+  3   2.2   0.891     0.1      0.0127     
+  4   2.14  0.897     0.107    0.0126     
+  5   2.11  0.901     0.104    0.0112     
+  6   2.08  0.903     0.101    0.0108     
+  7   2.06  0.906     0.0883   0.01       
+  8   2.04  0.909     0.0884   0.00932    
+  9   2.01  0.913     0.075    0.00832    
+  10  1.99  0.915     0.0731   0.00845    
+
+RMSE was used to select the optimal model using  the smallest value.
+The final value used for the model was k = 10. 
